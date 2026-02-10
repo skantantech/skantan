@@ -189,8 +189,8 @@ export default function Contact() {
                   </svg>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@skantantechcorp.com" className="text-blue-100 hover:text-white transition">
-                      info@skantantechcorp.com
+                    <a href="mailto:hr@skantantechcorp.com" className="text-blue-100 hover:text-white transition">
+                      hr@skantantechcorp.com
                     </a>
                   </div>
                 </div>
