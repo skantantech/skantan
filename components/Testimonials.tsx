@@ -88,9 +88,28 @@ export default function Testimonials() {
         {/* Partner Logos */}
         <div className="mt-20">
           <h4 className="text-center text-white text-xl font-semibold mb-8">Trusted By Leading Companies</h4>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-70">
-            {['Microsoft', 'AWS', 'Google Cloud', 'Salesforce'].map((partner, index) => (
-              <div key={index} className="bg-white rounded-lg px-8 py-4 text-gray-800 font-bold text-lg">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-items-center opacity-70">
+            {[
+              'Microsoft', 
+              'AWS', 
+              'Google Cloud', 
+              'Salesforce',
+              'ServiceNow',
+              'Atlassian',
+              'Adobe',
+              'Databricks',
+              'Snowflake',
+              'Automation Anywhere',
+              'UIPath',
+              'Oracle',
+              'SAP',
+              'IBM',
+              'Cisco',
+              'VMware',
+              'Red Hat',
+              'MongoDB'
+            ].map((partner, index) => (
+              <div key={index} className="bg-white rounded-lg px-6 py-3 text-gray-800 font-bold text-sm md:text-base whitespace-nowrap">
                 {partner}
               </div>
             ))}
